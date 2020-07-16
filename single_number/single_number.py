@@ -3,9 +3,14 @@ Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
 def single_number(arr):
-    # Your code here
-
-    pass
+    # single is first in an array
+    single = arr[0]
+    # looping through the length of array starting with 1
+    for i in range(1, len(arr)):
+        # XOR all the elements since nums that shows twice that XOR with itself will be 0,
+        # except the singe num that it will be the num itself
+        single ^= arr[i]
+    return single
 
 
 if __name__ == '__main__':

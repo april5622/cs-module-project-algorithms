@@ -3,10 +3,17 @@ Input: a List of integers
 Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
-    # Your code here
+    # loop through the array
+    # multiple everything in that array but the specific value in the index
+        # In order to multiple everything but that self value,
+        # need to split the array in halves with a LHS & RHS
+        # only multiple values in the left of that index value 
+        # only multiple values in the right of that index value
+    # return the product and that is added onto an arr
+    # the product is the value in the index not multipled in the new arr
 
     pass
-
+   
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
