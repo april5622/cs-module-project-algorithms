@@ -4,7 +4,7 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
+    ##
     pass
 
 
